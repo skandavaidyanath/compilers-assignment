@@ -1,0 +1,9 @@
+INSERT RECORD (3,"djhb","vghga") INTO dept.txt;
+INSERT RECORD (3,"djhb","vghga") INTO dept.txt;
+INSERT RECORD (4,"gghb","vdnna") INTO dept.txt;
+INSERT RECORD (1,"gsbm","vsbja") INTO dept.txt;
+INSERT RECORD (5,"gssxkhb","sxja") INTO dept.txt;
+GET dnum,dlocation from dept.txt where dnum<=7 or dname=="gsbm" or dnum==3;
+GET dnum,dlocation from dept.txt where dnum<=7 and dname=="gsbm";
+DELETE RECORD from dept.txt where dnum<=7 and dname=="gsbm";
+UPDATE RECORD in dept.txt set dlocation to "hahaha";

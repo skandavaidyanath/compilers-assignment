@@ -1,0 +1,12 @@
+INSERT RECORD (4,"vamsi",5,"ghfg",5656,3) INTO emp.txt;
+INSERT RECORD (7,"hullo",5,"ghfhghg",1000,8) INTO emp.txt;
+INSERT RECORD (5,"deek",57,"ghuhg",10,3) INTO emp.txt;
+INSERT RECORD (9,"agaz",74,"vada",340,2) INTO emp.txt;
+INSERT RECORD (1,"djhb",54,"vghga",800,4) INTO emp.txt;
+INSERT RECORD (1,"djhb",54,"vghga",800,4) INTO emp.txt;
+INSERT RECORD (3,"djhb",54b,"vghga",800,4) INTO emp.txt;
+GET ename,salary,deptno from emp.txt;
+GET ename,salary,deptno from emp.txt where salary<1000 and ename=="deek" or deptno==3;
+DELETE RECORD from emp.txt where salary>=1000 or deptno==8;
+UPDATE RECORD in emp.txt set ename to "deeksha";
+UPDATE RECORD in emp.txt set salary to 100 where salary==10 and deptno==3;
